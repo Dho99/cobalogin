@@ -1,0 +1,99 @@
+nav img {
+    margin: 0px 5px 0px 0px;
+}
+
+nav .container-fluid a {
+    color: black;
+    margin: 0px 50px 0px 0px;
+}
+
+nav .container-fluid a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: default;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.btn-success svg {
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .btn-success .fw-reg {
+        display: none;
+    }
+
+    .btn-success {
+        width: 45px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    .btn-success svg {
+        width: 20px;
+        height: 25px;
+        display: flex;
+    }
+
+    .offcanvas {
+        width: 200px;
+    }
+
+    .ms-4 {
+        margin: 0px 0px 0px 100px;
+    }
+
+}
+
+.offfcanvas ul {
+    list-style: none;
+}
+
+.offcanvas p {
+    padding: 10px;
+    align-items: center;
+    height: 50px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+    margin: 0px 0px 0px 0px;
+}
+
+.offcanvas p:hover {
+    padding: 10px;
+    background-color: #d1d1d1;
+    height: 50px;
+    width: 85%;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.offcanvas-body p a {
+    text-decoration: none;
+}
+
+.offcanvas-body p a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.offcanvas {
+    width: 320px;
+}
+
+table td a {
+    margin: 0px 20px 0px 0px;
+}
+
+nav .bi-list {
+    margin: 0px 20px 0px 0px;
+}
